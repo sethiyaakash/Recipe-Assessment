@@ -37,7 +37,7 @@ Recipe Web Service is microservice based layered architectured RESTful Web Servi
     - For testing purposes, the Embedded H2 Database provided by Spring Boot framework is also utilized 
 
 ### Steps to build Web Service
-* Download code zip / `git clone https://github.com/Akash-Sethiya/Recipe-Assessment`
+* Download code zip using https `git clone https://github.com/Akash-Sethiya/Recipe-Assessment` or ssh `git@github.com:sethiyaakash/Recipe-Assessment.git`
 * Move to `Recipe-Assessment` and run maven build command `mvn clean install`
 * To build by skipping unit tests run maven command `mvn clean install -DskipTests`
 * On build completion, one should have web service jar in `target` directory named as `recipe-assessment-1.0.0.jar`
